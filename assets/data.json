@@ -1,0 +1,51 @@
+{
+    "plane":
+    {
+        "k": 10,
+        "h": 20,
+        "B_0": 1.8,
+        "B_1":0.5,
+        "power": 40000,
+        "p_x": 0,
+        "p_y": 0,
+        "v_x": 3,
+        "v_y": 3,
+        "v_min":5,
+        "v_max": 20,
+        "a_max":4,
+        "c1": 9.26e-4,
+        "c2": 2250
+        
+    },
+    "device":
+    {
+        "num_max":200,
+        "num_min":10,
+        "location":[],
+        "location_x_limit": [-1000,1000],
+        "location_y_limit": [-1000,1000],
+        "amount_of_information_limit":[0.01,0.05],
+        "amount_of_information":[]
+    },
+
+
+    "information":
+    {
+        "a":0.3,
+        "b":1
+    },
+
+    "t_min":1,
+    "rou_0":100,
+    "rou_1":400,
+
+
+    "second_problem":
+    {
+        "num":10,
+        "r" : 5
+    }
+
+
+
+}
